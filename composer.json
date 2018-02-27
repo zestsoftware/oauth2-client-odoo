@@ -1,0 +1,40 @@
+{
+    "name": "zestsoftware/oauth2-client-doo",
+    "description": "Odoo OAuth2-Server Client Provider for The PHP League OAuth2-Client",
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "authorization",
+        "authentication",
+        "idp",
+        "identity",
+        "sso",
+        "single sign on",
+        "Odoo"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean-Paul Ladage",
+            "email": "j.ladage@zestsoftware.nl"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZestSoftware\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZestSoftware\\OAuth2\\Client\\Test\\": "test/src/"
+        }
+    }
+}
