@@ -100,7 +100,7 @@ class OdooTest extends \PHPUnit_Framework_TestCase
         ];
 
         $postResponse = m::mock('Psr\Http\Message\ResponseInterface');
-        $postResponse->shouldReceive('getBody')->andReturn('{"access_token":"mock_access_token","expires_in":"3600","token_type":"Bearer","scope":"openid email profile","id_token":"mock_token_id"}');
+        $postResponse->shouldReceive('getBody')->andReturn('{"access_token":"mock_access_token","expires_in":"3600","token_type":"Bearer","scope":"userinfo","id_token":"mock_token_id"}');
         $postResponse->shouldReceive('getHeader')->andReturn(['content-type' => 'json']);
         $postResponse->shouldReceive('getStatusCode')->andReturn(200);
         $userResponse = m::mock('Psr\Http\Message\ResponseInterface');
