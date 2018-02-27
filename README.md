@@ -89,3 +89,4 @@ Please see [CONTRIBUTING](https://bitbucket.com/zestsoftware/oauth2-client-odoo/
 ## License
 
 The MIT License (MIT). Please see [License File](https://bitbucket.com/zestsoftware/oauth2-client-odoo/blob/master/LICENSE) for more information.
+
