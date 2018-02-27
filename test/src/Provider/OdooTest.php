@@ -60,7 +60,7 @@ class OdooTest extends \PHPUnit_Framework_TestCase
     {
         $url = $this->provider->getAuthorizationUrl();
         $uri = parse_url($url);
-        $this->assertEquals('/oauth2/authorize', $uri['path']);
+        $this->assertEquals('/oauth2/auth', $uri['path']);
     }
 
     public function testGetBaseAccessTokenUrl()
