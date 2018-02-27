@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-I accept contributions via Pull Requests on [Github](https://bitbucket.com/zestsoftware/oauth2-client-odoo).
+I accept contributions via Pull Requests on [Bitbucket](https://bitbucket.com/zestsoftware/oauth2-client-odoo).
 
 
 ## Pull Requests

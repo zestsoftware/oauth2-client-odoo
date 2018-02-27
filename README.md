@@ -78,14 +78,14 @@ $ ./vendor/bin/phpunit
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/chrishemmings/oauth2-Odoo/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://bitbucket.com/zestsoftware/oauth2-client-odoo/blob/master/CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Chris Hemmings](https://github.com/chrishemmings)
-- [All Contributors](https://github.com/chrishemmings/oauth2-Odoo/contributors)
+- [Jean-Paul Ladage](https://bitbucket.com/zestsoftware/oauth2-client-odoo)
+- [All Contributors](https://bitbucket.com/zestsoftware/oauth2-client-odoo/contributors)
 
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/chrishemmings/oauth2-Odoo/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://bitbucket.com/zestsoftware/oauth2-client-odoo/blob/master/LICENSE) for more information.

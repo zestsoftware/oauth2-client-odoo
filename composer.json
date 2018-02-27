@@ -1,5 +1,5 @@
 {
-    "name": "zestsoftware/oauth2-client-doo",
+    "name": "zestsoftware/oauth2-client-odoo",
     "description": "Odoo OAuth2-Server Client Provider for The PHP League OAuth2-Client",
     "keywords": [
         "oauth",
