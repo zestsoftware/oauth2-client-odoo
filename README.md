@@ -25,8 +25,8 @@ session_start();
 $provider = new \ZestSoftware\OAuth2\Client\Provider\Odoo([
     'clientId'          => '{Odoo-client-id}',
     'clientSecret'      => '{Odoo-client-secret}',
-    'redirectUri'       => 'https://example.com/callback-url',
-    'baseUrl'           => 'https://example.com',
+    'redirectUri'       => 'https://my.website.com/callback-url',
+    'baseUrl'           => 'https://oauth.example.com',
 ]);
 
 if (!isset($_GET['code'])) {
